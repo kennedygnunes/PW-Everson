@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #233268;
+  color: white;
+  font-weight: bold;
+}
+
+h1{
+  background-color: #4c5d97;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+label{
+  display: flex;
+  justify-content: center;
+  margin: 5px
+}
+
+input{
+  display: block;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fundoFormacoes{
+  align-items: center;
+  text-align: center;
+  width: 410px;
+  height: 780px;
+  border-radius: 5px;
+  background-color:#4c5d97;
+}
+
+.fundoPessoal {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 15rem;
+  background-color: #233268;
+}
+
+#divNome {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#divIdade {
+  color: white;
+  margin: 0px;
+  margin-top: -200px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#divEndereco {
+  color: white;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#divEmail {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: -220px;
+}
+
+#divTelefone {
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -220px;
+}
+
+#divSituacao {
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+#divSobremim {
+  color: white;
+  font-weight: inherit;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+#divEspecialidades {
+  color: white;
+  font-weight: inherit;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+#divEducacao {
+  color: white;
+  font-weight: inherit;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+#divExperiencia {
+  color: white;
+  font-weight: inherit;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+#divHabilidades {
+  color: white;
+  font-weight: inherit;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+button{
+  background-color: rgb(144, 231, 185);
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.print-button {
+  margin-bottom: 10px;
+}
